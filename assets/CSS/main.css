@@ -263,9 +263,9 @@
   
 
   /*========Team Card=========*/
-  .container{
+  .container-team{
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   max-height: 800px;
   max-width: 1280px;
   min-height: 600px;
@@ -290,7 +290,7 @@
     border: 1px solid white
 }
 
-.card{
+.card-team{
   height: 379px;
   width: 300px;
   background: grey;
@@ -306,66 +306,49 @@
 }
 
 .card0{
-  background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') center center no-repeat;
-  background-size: 300px;
+  background: url(../IMG/ayo.jpg) center center no-repeat;
+  background-size: 350px;
 }
 
   .card0:hover{
-    background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') left center no-repeat;
+    background: url(../IMG/ayo.jpg)left center no-repeat;
     background-size: 600px;
   }
 
-    h2{
-      opacity: 1;
-    }
-    .fa{
+   
+   .fa{
       opacity: 1;
     }
 .card1{
-  background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') center center no-repeat;
-  background-size: 300px;
+  background: url(../IMG/ayo-ogunseinde-sibVwORYqs0-unsplash.jpg) center center no-repeat;
+  background-size: 600px;
 }
 
   .card1:hover{
-    background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') left center no-repeat;
+    background: url(../IMG/ayo-ogunseinde-sibVwORYqs0-unsplash.jpg) left center no-repeat;
     background-size: 600px;
   }
 
-    h2{
-      opacity: 1
-    }
-
     .fa{
-      opacity: 1
+      opacity: 1;
     }
 
 .card2{
-  background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') center center no-repeat;
+  background:url(../IMG/img7.jpg) center center no-repeat;
   background-size: 300px;
 }
 
   .card2:hover{
-    background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') left center no-repeat;
+    background:url(../IMG/img7.jpg) left center no-repeat;
     background-size: 600px;
   }
 
-    h2{
-      opacity: 1;
-    }
-
+   
     .fa{
       opacity: 1;
     }
-h2{
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color: white;
-  margin: 20px;
-  opacity: 0;
-  transition: opacity 1s;
-}
-
 .fa{
-  opacity: 0;
+  opacity: 1;
   transition: opacity 1s;
 }
 
@@ -381,3 +364,5 @@ h2{
   align-items: center;
   justify-content: space-around;
 }
+
+/*======All Forms Here=======*/
