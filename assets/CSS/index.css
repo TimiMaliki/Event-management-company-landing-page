@@ -257,7 +257,7 @@ ul{
     right: 0;
     width: 200vw;
     height: 0px;
-    background: #e91e63;;
+    background: #333;
     transition: 0.5s;
     overflow: hidden;
   }
@@ -267,7 +267,7 @@ ul{
   .nav-bar ul{
     display: block;
     width: fit-content;
-    margin: 40px auto 0 auto;
+    margin: 20px auto 0 auto;
     text-align: center;
     transition: 0.5s;
     opacity: 0;
