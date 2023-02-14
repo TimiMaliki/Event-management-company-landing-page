@@ -1,0 +1,286 @@
+@-o-viewport {
+    width: 100%;
+}
+
+@-ms-viewport {
+    width: 100%;
+}
+
+@viewport {
+    width: 100%;
+}
+
+@media(max-width:324px){
+     body{
+        width:100%;
+        overflow-x:hidden;
+        }
+        html{
+            width:100%;
+            overflow-x:hidden;
+        }
+
+    .hero_text h1 {
+        font-size: 25px;
+        transform: translateX(-100px);
+        width: 300px;
+        height: 100px;
+    }
+    .hero_img{
+        margin-top: -40px;
+        width: 250px;
+        height: 400px;
+        transform: translateX(30px);
+    }
+    .btn__ {
+        margin-top: 100px;
+        justify-content: center;
+        transform: translateX(100px);
+    }
+    .Service{
+        margin: -30px;
+    }
+    .grid {
+        width: 100%;
+        display: inline-block;
+    }
+    .grid-8{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .service_text{
+        transform: translateX(90px);
+        margin: 10px;
+        padding: 25px;
+    }
+
+    .card{
+        margin: 29px;
+        margin-left:100px ;
+        width: 250px;
+        height: 150px;
+    }
+    .card_img1 , .card_img2 ,
+    .card_img3 , .card_img4 ,
+    .card_img5 , .card_img6 ,
+    .card_img7 , .card_img8 {
+        border: 2px solid red;
+        width: 200px;
+    }
+    .hd{
+        visibility: hidden;
+    }
+    .grid-half{
+        width: 100%;
+        display: inline-block;
+    }
+    .case_text{
+        transform: translateX(-128px);
+    }
+    .case_box{
+        transform: translateX(-50px);
+        margin: -39px;
+    }
+    .case-youtube{
+        display: inline-block;
+    }
+    iframe{
+        width: 200px;
+        height: 150px;
+    }
+    .frame-one , .frame-two ,
+    .frame-three{
+       margin-bottom: 70px;
+       transform: translateX(18px);
+    }
+    .about_text{
+        transform: translateX(-128px);
+        padding: 30px;
+        margin-top: -20px;
+    }
+    .about_text p{
+        width: 300px;
+        height: 50px;
+        padding: 20px;
+        margin-top: -10px;
+        font-size: 19px;
+        transform: translateX(-48px);
+    }
+    .about_box p{
+        width: 200px;
+        height: 100px;
+        margin-top: 50px;
+        transform: translateX(-128px);
+    }
+    .grid-split{
+        display: inline-block;
+        padding: 35px;
+    }
+    .about-img {
+        width: 250px;
+        height: 100px;
+        transform: translateX(-8px);
+    }
+    .img1 , .img2{
+        width: 250px;
+        height: 150px;
+        transform: translateY(328px);
+        align-items: center;
+        justify-content: center;
+    }
+    .client_text{
+        transform: translateX(-128px);
+        padding: 30px;
+        margin-top: -20px;
+        padding: 20px 25px;
+    }
+    .client_img{
+        transform: translateX(-38px);
+    }
+    .client_text  h3{
+        transform: translateX(-98px);
+    }
+    .client_text  .p{
+        transform: translateX(58px);
+    }
+    .client_text  p{
+        width: 200px;
+        height: 100px;
+        transform: translateX(68px);
+        margin-bottom: 60px;
+    }
+    .card-team{
+        width: 200px;
+        height: 300px;
+        margin-bottom: 60px;
+        margin-top: 40px;
+    }
+    .container-team{
+        display: inline-block;
+        transform: translateX(68px);
+    }
+    .container-card{
+        display: inline-block;
+        min-height: 80vh;
+        transform: translateX(-8px);
+        min-width: 100%;
+    }
+    .card{
+        width: 200px;
+        height: 200px;
+        transform: translateX(-10px);
+    }
+    .talk{
+        height: 80vh;
+    }
+    .talk-text , .team_text , .choose-text{
+        transform: translateX(-438px);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .form-structor{
+        width: 280px;
+        height: 400px;
+        transform: translateX(-379px);
+        margin-top: 90px;
+    }
+    footer{
+        width: 100%;
+        display: inline-block;
+    }
+    .footer-wrap , .footerUsefulLink{
+        transform: translateX(-439px);
+        width: 100%;
+        height: 20vh;
+    }
+    .footerCopy{
+        transform: translateX(-449px);
+    }
+    .widgetFooter:nth-of-type(2){
+        display: inline-block;
+      }
+      ul#footerUsefulLink, ul#footerMediaLinks{
+        display: inline-block;
+      }
+      ul#footerUsefulLink li, ul#footerMediaLinks li{
+        text-align: center;
+        font-size: 1.5em;
+      }
+   
+}
+@media(max-width:459px){
+.hero , .Service , .case-study , .about , .client
+, .team , .talk{
+    width: 1200px;
+}
+.Us{
+   min-width: 1200px;
+}
+footer{
+    width: 1200px;
+}
+
+}
+
+@media(max-width:659px){
+    .hero , .Service , .case-study , .about , .client
+    , .team , .talk{
+        width: 1200px;
+    }
+    .Us{
+       min-width: 1200px;
+    }
+    footer{
+        width: 1200px;
+    }
+}
+
+@media(max-width:759px){  
+    .hero , .Service , .case-study , .about , .client
+    , .team , .talk{
+        width: 1200px;
+    }
+    .Us{
+       min-width: 1200px;
+    }
+    footer{
+        width: 1200px;
+    }
+}
+@media(max-width:859px){
+    .hero , .Service , .case-study , .about , .client
+    , .team , .talk{
+        width: 1200px;
+    }
+    .Us{
+       min-width: 1200px;
+    }
+    footer{
+        width: 1200px;
+    }
+}
+@media(max-width:959px){
+    .hero , .Service , .case-study , .about , .client
+    , .team , .talk{
+        width: 1200px;
+    }
+    .Us{
+       min-width: 1200px;
+    }
+    footer{
+        width: 1200px;
+    }
+}
+@media(max-width:1159px){
+    .hero , .Service , .case-study , .about , .client
+    , .team , .talk{
+        width: 1200px;
+    }
+    .Us{
+       min-width: 1200px;
+    }
+    footer{
+        width: 1200px;
+    }
+}
